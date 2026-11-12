@@ -473,7 +473,7 @@ def write_png(path):
 
 
 os.makedirs(OUT_DIR, exist_ok=True)
-out_path = os.path.join(OUT_DIR, "coolest-art-01.png")
+out_path = os.path.join(OUT_DIR, "entry.png")
 write_png(out_path)
 
 elapsed = time.time() - t_start
